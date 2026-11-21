@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- Ruta de la libreria Irvine32. Se usa la primera que exista. -->
+    <IrvineDir Condition="'$(IrvineDir)'=='' and Exists('C:\Irvine\Irvine32.inc')">C:\Irvine</IrvineDir>
+    <IrvineDir Condition="'$(IrvineDir)'=='' and Exists('D:\Irvine\Irvine\Irvine32.inc')">D:\Irvine\Irvine</IrvineDir>
+    <IrvineDir Condition="'$(IrvineDir)'==''">C:\Irvine</IrvineDir>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,8 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+inventario.tmp
+entradas_prueba.txt
+salida_prueba.txt

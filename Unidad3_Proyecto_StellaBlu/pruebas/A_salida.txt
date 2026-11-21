@@ -1,0 +1,468 @@
+
+STELLA BLU - VENTAS E INVENTARIO
+Catalogo validado y cargado. Los ingresos de sesion se conservan.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 2
+Codigo: MUN-001 | Nombre: Gorra Municion negra | Precio: 229.00 MXN | Existencia: 20
+Codigo: ART-002 | Nombre: Gorra Artilleria azul | Precio: 185.50 MXN | Existencia: 5
+Codigo: BAL-003 | Nombre: Gorra Bala roja | Precio: 120.05 MXN | Existencia: 0
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 6
+Unidades disponibles: 25
+Valor total del inventario: 5507.50 MXN
+Ingresos acumulados de esta sesion: 0.00 MXN
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 7
+Codigo: ART-002 | Nombre: Gorra Artilleria azul | Precio: 185.50 MXN | Existencia: 5
+Codigo: BAL-003 | Nombre: Gorra Bala roja | Precio: 120.05 MXN | Existencia: 0
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 3
+Codigo (ABC-123): abc-123
+Formato invalido: tres mayusculas, guion y tres digitos.
+Codigo (ABC-123): ZZZ-999
+No se encontro el producto. Capture otro codigo.
+Codigo (ABC-123): MUN-001
+Codigo: MUN-001 | Nombre: Gorra Municion negra | Precio: 229.00 MXN | Existencia: 20
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 1
+Codigo (ABC-123): MUN-001
+Codigo duplicado. Capture otro codigo.
+Codigo (ABC-123): ABC-1234
+Formato invalido: tres mayusculas, guion y tres digitos.
+Codigo (ABC-123): XYZ-004
+Nombre (1-25 caracteres ASCII visibles): 
+Use 1-25 caracteres visibles, con al menos uno distinto de espacio.
+Nombre (1-25 caracteres ASCII visibles):      
+Use 1-25 caracteres visibles, con al menos uno distinto de espacio.
+Nombre (1-25 caracteres ASCII visibles): ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Use 1-25 caracteres visibles, con al menos uno distinto de espacio.
+Nombre (1-25 caracteres ASCII visibles): Gorra prueba
+Precio en pesos, ej. 229 o 185.50: 12.345
+Precio invalido. Rango: 0.01 a 9999.99, maximo dos decimales.
+Precio en pesos, ej. 229 o 185.50: 12.
+Precio invalido. Rango: 0.01 a 9999.99, maximo dos decimales.
+Precio en pesos, ej. 229 o 185.50: .50
+Precio invalido. Rango: 0.01 a 9999.99, maximo dos decimales.
+Precio en pesos, ej. 229 o 185.50: $1
+Precio invalido. Rango: 0.01 a 9999.99, maximo dos decimales.
+Precio en pesos, ej. 229 o 185.50: 1,000
+Precio invalido. Rango: 0.01 a 9999.99, maximo dos decimales.
+Precio en pesos, ej. 229 o 185.50: 0
+Precio invalido. Rango: 0.01 a 9999.99, maximo dos decimales.
+Precio en pesos, ej. 229 o 185.50: 10000
+Precio invalido. Rango: 0.01 a 9999.99, maximo dos decimales.
+Precio en pesos, ej. 229 o 185.50: 12.05
+Existencia inicial (0-100): 
+Entrada invalida. Intente de nuevo.
+Existencia inicial (0-100): -1
+Entrada invalida. Intente de nuevo.
+Existencia inicial (0-100): +1
+Entrada invalida. Intente de nuevo.
+Existencia inicial (0-100): 1.0
+Entrada invalida. Intente de nuevo.
+Existencia inicial (0-100):  
+Entrada invalida. Intente de nuevo.
+Existencia inicial (0-100): abc
+Entrada invalida. Intente de nuevo.
+Existencia inicial (0-100): 101
+Entrada invalida. Intente de nuevo.
+Existencia inicial (0-100): 4
+Producto registrado.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 4
+Codigo (ABC-123): MUN-001
+Cantidad de unidades (1-100): 81
+Recepcion rechazada: excede 100 unidades. Capture otra cantidad.
+Cantidad de unidades (1-100): 2
+Recepcion aceptada. Existencia actual: 22
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 5
+Codigo (ABC-123): MUN-001
+Cantidad de unidades (1-100): 23
+Venta rechazada: existencia insuficiente. Capture otra cantidad.
+Cantidad de unidades (1-100): 3
+Venta aceptada. Importe: 687.00 MXN
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 5
+Codigo (ABC-123): ART-002
+Cantidad de unidades (1-100): 1
+Venta aceptada. Importe: 185.50 MXN
+ALERTA: quedan cinco unidades o menos.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 5
+Codigo (ABC-123): BAL-003
+Venta rechazada: no hay unidades disponibles.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 6
+Unidades disponibles: 27
+Valor total del inventario: 5141.20 MXN
+Ingresos acumulados de esta sesion: 872.50 MXN
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 7
+Codigo: ART-002 | Nombre: Gorra Artilleria azul | Precio: 185.50 MXN | Existencia: 4
+Codigo: BAL-003 | Nombre: Gorra Bala roja | Precio: 120.05 MXN | Existencia: 0
+Codigo: XYZ-004 | Nombre: Gorra prueba | Precio: 12.05 MXN | Existencia: 4
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 9
+Cargar descarta cambios sin guardar. 1=Continuar, 0=Cancelar: 0
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 2
+Codigo: MUN-001 | Nombre: Gorra Municion negra | Precio: 229.00 MXN | Existencia: 19
+Codigo: ART-002 | Nombre: Gorra Artilleria azul | Precio: 185.50 MXN | Existencia: 4
+Codigo: BAL-003 | Nombre: Gorra Bala roja | Precio: 120.05 MXN | Existencia: 0
+Codigo: XYZ-004 | Nombre: Gorra prueba | Precio: 12.05 MXN | Existencia: 4
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 0
+Hay cambios sin guardar. 1=Guardar y salir, 2=Salir sin guardar, 0=Volver: 0
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 9
+Cargar descarta cambios sin guardar. 1=Continuar, 0=Cancelar: 1
+Catalogo validado y cargado. Los ingresos de sesion se conservan.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 6
+Unidades disponibles: 25
+Valor total del inventario: 5507.50 MXN
+Ingresos acumulados de esta sesion: 872.50 MXN
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 1
+Codigo (ABC-123): AAA-001
+Nombre (1-25 caracteres ASCII visibles): Gorra A
+Precio en pesos, ej. 229 o 185.50: 0.01
+Existencia inicial (0-100): 0
+Producto registrado.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 1
+Codigo (ABC-123): AAB-002
+Nombre (1-25 caracteres ASCII visibles): Gorra B
+Precio en pesos, ej. 229 o 185.50: 9999.99
+Existencia inicial (0-100): 100
+Producto registrado.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 1
+Codigo (ABC-123): AAC-003
+Nombre (1-25 caracteres ASCII visibles): Gorra C
+Precio en pesos, ej. 229 o 185.50: 185.50
+Existencia inicial (0-100): 1
+Producto registrado.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 1
+Codigo (ABC-123): AAD-004
+Nombre (1-25 caracteres ASCII visibles): Gorra D
+Precio en pesos, ej. 229 o 185.50: 12.5
+Existencia inicial (0-100): 2
+Producto registrado.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 1
+Codigo (ABC-123): AAE-005
+Nombre (1-25 caracteres ASCII visibles): Gorra E
+Precio en pesos, ej. 229 o 185.50: 229
+Existencia inicial (0-100): 3
+Producto registrado.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 1
+Codigo (ABC-123): AAF-006
+Nombre (1-25 caracteres ASCII visibles): Gorra F
+Precio en pesos, ej. 229 o 185.50: 12.05
+Existencia inicial (0-100): 4
+Producto registrado.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 1
+Codigo (ABC-123): AAG-007
+Nombre (1-25 caracteres ASCII visibles): ABCDEFGHIJKLMNOPQRSTUVWXY
+Precio en pesos, ej. 229 o 185.50: 1
+Existencia inicial (0-100): 5
+Producto registrado.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 1
+Capacidad completa: solo se permiten 10 productos.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 2
+Codigo: MUN-001 | Nombre: Gorra Municion negra | Precio: 229.00 MXN | Existencia: 20
+Codigo: ART-002 | Nombre: Gorra Artilleria azul | Precio: 185.50 MXN | Existencia: 5
+Codigo: BAL-003 | Nombre: Gorra Bala roja | Precio: 120.05 MXN | Existencia: 0
+Codigo: AAA-001 | Nombre: Gorra A | Precio: 0.01 MXN | Existencia: 0
+Codigo: AAB-002 | Nombre: Gorra B | Precio: 9999.99 MXN | Existencia: 100
+Codigo: AAC-003 | Nombre: Gorra C | Precio: 185.50 MXN | Existencia: 1
+Codigo: AAD-004 | Nombre: Gorra D | Precio: 12.50 MXN | Existencia: 2
+Codigo: AAE-005 | Nombre: Gorra E | Precio: 229.00 MXN | Existencia: 3
+Codigo: AAF-006 | Nombre: Gorra F | Precio: 12.05 MXN | Existencia: 4
+Codigo: AAG-007 | Nombre: ABCDEFGHIJKLMNOPQRSTUVWXY | Precio: 1.00 MXN | Existencia: 5
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 6
+Unidades disponibles: 140
+Valor total del inventario: 1006457.20 MXN
+Ingresos acumulados de esta sesion: 872.50 MXN
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 0
+Hay cambios sin guardar. 1=Guardar y salir, 2=Salir sin guardar, 0=Volver: 2
+Fin del programa.

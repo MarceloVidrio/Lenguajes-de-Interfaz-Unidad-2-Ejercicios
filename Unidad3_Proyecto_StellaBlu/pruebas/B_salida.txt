@@ -1,0 +1,91 @@
+
+STELLA BLU - VENTAS E INVENTARIO
+Catalogo validado y cargado. Los ingresos de sesion se conservan.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 1
+Codigo (ABC-123): NUE-004
+Nombre (1-25 caracteres ASCII visibles): Gorra nueva
+Precio en pesos, ej. 229 o 185.50: 12.05
+Existencia inicial (0-100): 4
+Producto registrado.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 4
+Codigo (ABC-123): MUN-001
+Cantidad de unidades (1-100): 2
+Recepcion aceptada. Existencia actual: 22
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 5
+Codigo (ABC-123): MUN-001
+Cantidad de unidades (1-100): 3
+Venta aceptada. Importe: 687.00 MXN
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 6
+Unidades disponibles: 28
+Valor total del inventario: 5326.70 MXN
+Ingresos acumulados de esta sesion: 687.00 MXN
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 8
+Catalogo guardado en inventario.sbi.
+
+1. Registrar producto
+2. Mostrar inventario
+3. Buscar por codigo
+4. Recibir mercancia
+5. Vender
+6. Resumen de la sesion
+7. Alertas de existencia minima (5 o menos)
+8. Guardar catalogo
+9. Cargar catalogo
+0. Salir
+Opcion (0-9): 0
+Fin del programa.
