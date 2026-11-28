@@ -19,7 +19,6 @@ El programa detecta la conexión de una memoria USB y lee la configuración del 
 | `usb/` | `sensor.ini` y `lecturas.csv` para copiar a la raíz de la USB, y `resultados_ejemplo.csv` generado en las pruebas |
 | `docs/` | Reporte en PDF (y DOCX editable) con funcionamiento, pruebas y conclusiones |
 | `capturas/` | Capturas de la compilación y de las pruebas |
-| `version_anterior_solo_ASM/` | Primera versión del proyecto, escrita solo en ensamblador con Irvine32 |
 
 ## Reparto C++ / ensamblador
 
